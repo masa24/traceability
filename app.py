@@ -1,4 +1,3 @@
-```.py
 from flask import Flask, render_template, redirect, make_response, request
 import sqlite3
 
@@ -164,5 +163,3 @@ def re():
 create_database()
 if __name__ == '__main__':
     app.run()
-
-```
